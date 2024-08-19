@@ -1,0 +1,265 @@
+.header-box {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../public/images/header-bg.jpg), top center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.header-box * {
+    overflow: hidden;
+}
+
+.header-con {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar .logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.navbar .logo h1 {
+    font-size: 35px;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links .nav-link {
+    color: white;
+    transition: all 500ms ease;
+}
+
+.active-nav-link {
+    color: orange;
+}
+
+.nav-links .nav-link:hover {
+    color: orange;
+}
+
+.start-btn-div {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+.start-btn-div>button {
+    outline: 0;
+    border: 2px solid orange;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    background: transparent;
+    font-family: 'vazir';
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 90px;
+    transition: all 500ms ease 50ms;
+}
+
+.start-btn-div>button:hover {
+    background: orange;
+}
+
+.start-btn-div>svg {
+    display: none;
+    width: 40px;
+    opacity: 0.7;
+    color: white;
+    cursor: pointer;
+}
+
+.header-info {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header-info h2 {
+    font-size: 60px;
+    overflow: hidden;
+}
+
+.header-info span {
+    margin: 0 6px;
+    font-size: 60px;
+    color: orange;
+}
+
+.header-info p {
+    font-size: 30px;
+}
+
+.header-boxs {
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.header-box-info-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 160px;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 10px;
+    transition: all 500ms ease;
+    backdrop-filter: blur(10px);
+}
+
+.header-box-info-div:hover {
+    border-color: orange;
+    background-color: rgba(255, 166, 0, 0.1);
+}
+
+.header-boxs .header-box-info {
+    text-align: center;
+}
+
+.header-boxs .header-box-info svg {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto 15px auto;
+    color: orange;
+}
+
+.header-boxs .header-box-info a {
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    text-wrap: nowrap;
+    transition: all 500ms ease;
+}
+
+.header-boxs .header-box-info a:hover {
+    color: orange;
+}
+
+/* Responsive */
+
+@media screen and (max-width:1150px) {
+    .header-box {
+        overflow: hidden;
+        padding: 0 5px;
+
+    }
+
+    .header-info {
+        margin-top: 20px;
+    }
+
+    .header-boxs {
+        margin: 70px 0;
+        gap: 10px;
+    }
+
+    .header-box-info-div {
+        width: 160px;
+        height: 130px;
+    }
+
+    .header-boxs .header-box-info a {
+        font-size: 17px;
+    }
+    
+}
+
+@media screen and (max-width:1000px) {
+
+
+    .header-box-info svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header-boxs .header-box-info a {
+        font-size: 15px;
+    }
+
+    .header-info > h2 {
+        font-size: 33px;
+    }
+
+    .header-info > span {
+        font-size: 38px;
+    }
+
+    .header-info > p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .start-btn-div>svg {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header-box {
+        height: auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .start-btn-div>button {
+        display: none;
+    }
+
+    .header-info {
+        display: none;
+    }
+
+    .header-boxs {
+        gap: 10px;
+        row-gap: 10px;
+    }
+
+    .header-box-info-div {
+        width: 140px;
+        height: 120px;
+    }
+
+    .header-boxs .header-box-info svg {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .service h3 {
+        margin-top: 80px !important;
+    }
+}

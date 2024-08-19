@@ -1,0 +1,159 @@
+footer {
+    background-color: #000000e3;
+    color: white;
+}
+
+footer .footer-div {
+    max-width: 1300px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+    direction: rtl;
+}
+
+.footer-div .logo {
+    direction: rtl;
+    margin: 20px 0;
+}
+
+.footer-div .logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.footer-div .logo h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.footer-div .info p {
+    direction: rtl;
+    margin: 4px;
+}
+
+.footer-div .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    width: 100%;
+    top: 240px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.footer-div .social-box {
+    color: white;
+    font-size: 23px;
+    position: relative;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.footer-div .social-box svg {
+    transition: .7s;
+    z-index: 3;
+}
+
+.footer-div .social-box:hover svg {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+.footer-div .social-box::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+    z-index: 2;
+}
+
+.footer-div .social-box:hover:before {
+    top: 0;
+}
+
+.footer-div .item1::before {
+    background: #FF5722;
+}
+
+.footer-div .item2::before {
+    background: #E91E63;
+}
+
+.footer-div .item3::before {
+    background: #2196F3;
+}
+
+.footer-div .item4::before {
+    background: #4CAF50;
+}
+
+.footer-div .title {
+    direction: rtl;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.footer-div .sub-title {
+    direction: rtl;
+    margin-bottom: 50px;
+}
+
+.footer-div .footer-btn {
+    color: black;
+    background-color: orange;
+    border: 0;
+    outline: 0;
+}
+
+.footer-div ul {
+    direction: rtl;
+}
+
+
+.footer-div ul li {
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.footer-div ul svg {
+    color: orange;
+
+}
+
+.footer-div ul a {
+    color: white;
+    transition: all 0.5s ease;
+}
+
+
+.footer-div ul a:hover {
+    color: orange;
+    margin-right: 6px;
+}
+
+.subFooter {
+    width: 100%;
+    background-color: #000000;
+    padding: 20px;
+}
+.subFooter p a {
+    color: orange;
+    font-size: 18px;
+}
+@media screen and (max-width:1200px) {
+    .footer-div {
+        width: 95% !important;
+    }
+}
+
