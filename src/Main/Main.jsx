@@ -4,6 +4,20 @@ import { ServiceBox } from './ServicesBox';
 import Slider from './slider';
 import { useEffect } from 'react';
 
+// images
+import companyImg from '../images/company.jpg'
+  // portfolios
+import p1 from '../images/Portfolio/portfolio-1.jpg'
+import p2 from '../images/Portfolio/portfolio-2.jpg'
+import p3 from '../images/Portfolio/portfolio-3.jpg'
+import p4 from '../images/Portfolio/portfolio-4.jpg'
+import p5 from '../images/Portfolio/portfolio-5.jpg'
+import p6 from '../images/Portfolio/portfolio-6.jpg'
+  // team
+import team1Img from '../images/team/p1.png'
+import team2Img from '../images/team/p2.PNG'
+import team3Img from '../images/team/p3.PNG'
+
 // icons
 import { FaPlusCircle, FaGithub, FaInstagram, FaTelegramPlane, FaDiscord } from "react-icons/fa";
 import { FaLink, FaLocationDot } from "react-icons/fa6";
@@ -188,7 +202,7 @@ function Main() {
             <div className="company-main">
                 <div className='company'>
                     <div className='img-div' data-aos="fade-right" data-aos-duration="500">
-                        <img src="./images/company.jpg" alt="company" />
+                        <img src={companyImg} alt="company" />
                     </div>
                     <ul className='company-info' data-aos="fade-left" data-aos-duration="500">
                         <h2>شرکت دیجیتال کاسوکا</h2>
@@ -247,15 +261,15 @@ function Main() {
                     <PortfolioTitle title='همه' isActive={true}></PortfolioTitle>
                 </div>
                 <div className="portfolio-img-box">
-                    <PortfolioImgBox title='برنامه' img='./images/Portfolio/portfolio-1.jpg'></PortfolioImgBox>
-                    <PortfolioImgBox title='برنامه' img='./images/Portfolio/portfolio-5.jpg'></PortfolioImgBox>
-                    <PortfolioImgBox title='برنامه' img='./images/Portfolio/portfolio-2.jpg'></PortfolioImgBox>
-                    <PortfolioImgBox title='برنامه' img='./images/Portfolio/portfolio-6.jpg'></PortfolioImgBox>
-                    <PortfolioImgBox title='برنامه' img='./images/Portfolio/portfolio-2.jpg'></PortfolioImgBox>
-                    <PortfolioImgBox title='برنامه' img='./images/Portfolio/portfolio-3.jpg'></PortfolioImgBox>
-                    <PortfolioImgBox title='برنامه' img='./images/Portfolio/portfolio-4.jpg'></PortfolioImgBox>
-                    <PortfolioImgBox title='برنامه' img='./images/Portfolio/portfolio-5.jpg'></PortfolioImgBox>
-                    <PortfolioImgBox title='برنامه' img='./images/Portfolio/portfolio-6.jpg'></PortfolioImgBox>
+                    <PortfolioImgBox title='برنامه' img={p1} />
+                    <PortfolioImgBox title='برنامه' img={p2} />
+                    <PortfolioImgBox title='برنامه' img={p3} />
+                    <PortfolioImgBox title='برنامه' img={p4} />
+                    <PortfolioImgBox title='برنامه' img={p4} />
+                    <PortfolioImgBox title='برنامه' img={p5} />
+                    <PortfolioImgBox title='برنامه' img={p6} />
+                    <PortfolioImgBox title='برنامه' img={p1} />
+                    <PortfolioImgBox title='برنامه' img={p2} />
                 </div>
             </div>
 
@@ -279,10 +293,10 @@ function Main() {
                 <div className="team">
                     <MainTitle title='تیم'></MainTitle>
                     <Row style={{ rowGap: '20px' }}>
-                        <TeamCard delay={50} img='./images/team/p2.png' job='حسابدار' name='علی عزیزی'></TeamCard>
-                        <TeamCard delay={150} img='./images/team/p1.png' job='مدیر پروژه' name='ساره اسماعیلی'></TeamCard>
-                        <TeamCard delay={250} img='./images/team/p3.png' job='برنامه نویس' name='محدثه حبیبی'></TeamCard>
-                        <TeamCard delay={350} img='./images/team/p1.png' job='حسابدار' name='علی عزیزی'></TeamCard>
+                        <TeamCard delay={50} img={team1Img} job='حسابدار' name='علی عزیزی'></TeamCard>
+                        <TeamCard delay={150} img={team2Img} job='مدیر پروژه' name='ساره اسماعیلی'></TeamCard>
+                        <TeamCard delay={250} img={team3Img} job='برنامه نویس' name='محدثه حبیبی'></TeamCard>
+                        <TeamCard delay={350} img={team2Img} job='حسابدار' name='علی عزیزی'></TeamCard>
                     </Row>
                 </div>
 

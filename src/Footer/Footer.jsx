@@ -5,6 +5,8 @@ import './Footer.css'
 import { FaGithub, FaInstagram, FaTelegramPlane, FaDiscord } from "react-icons/fa";
 import { IoIosArrowBack } from "react-icons/io";
 
+// images
+import logo from '../images/logo.png'
 
 // bootstrap
 import 'bootstrap/dist/css/bootstrap.css'
@@ -46,7 +48,7 @@ export default function Footer() {
                 <Row>
                     <Col className='info' sm={6} lg={4} xl={3}>
                         <div className="logo d-flex align-items-center">
-                            <img src="./images/logo.png" alt="logo" />
+                            <img src={logo} alt="logo" />
                             <h1>KASOKA</h1>
                         </div>
                         <p>آدرس : خیابان رحمانی کوچه 11 پلاک 10</p>
@@ -106,7 +108,7 @@ export default function Footer() {
             </div>
             <div className="subFooter">
                 <center>
-                    <p className='m-0'>نوشته شده توسط  <a href="">علیرضا اقدم</a></p>
+                    <p className='m-0'>نوشته شده توسط  <a href="https://github.com/alirezam1387">علیرضا اقدم</a></p>
                 </center>
             </div>
         </footer>

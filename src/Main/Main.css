@@ -71,7 +71,7 @@ main {
     width: 70%;
     height: 400px;
     background-size: cover;
-    background-image: url(../../public/images/propreties.jpg);
+    background-image: url(../images/propreties.jpg);
     background-repeat: no-repeat;
 
 }
@@ -206,7 +206,7 @@ main {
 
 .sentence-main-box {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../public/images/cta-bg.jpg') fixed center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/cta-bg.jpg') fixed center center;
     text-align: center;
     margin-top: 100px;
     color: white;
@@ -365,7 +365,7 @@ main {
 
 .img-nav {
     background-size: cover;
-    background-image: url(../../public/images/content.jpg);
+    background-image: url(../images/content.jpg);
     background-repeat: no-repeat;
     background-origin: content-box;
     background-position: center;

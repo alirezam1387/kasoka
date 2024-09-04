@@ -6,6 +6,9 @@ import { FaUserGraduate, FaShoppingBasket, FaChartLine } from "react-icons/fa";
 import { TiMediaPlayReverse } from "react-icons/ti";
 import { CiTextAlignJustify } from "react-icons/ci";
 
+// images
+import logo from '../images/logo.png'
+
 // aos
 import AOS from "aos";
 import "aos/dist/aos.css"
@@ -38,7 +41,7 @@ function Header() {
             <div className='header-con'>
                 <div className="navbar">
                     <div className="logo">
-                        <img src="./images/logo.png" alt="logo" />
+                        <img src={logo} alt="logo" />
                         <h1>KASOKA</h1>
                     </div>
                     <div className="nav-links">
