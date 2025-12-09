@@ -1,70 +1,84 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Stars](https://img.shields.io/github/stars/alirezam1387/kasoka?style=flat) ![Forks](https://img.shields.io/github/forks/alirezam1387/kasoka?style=flat) ![Issues](https://img.shields.io/github/issues/alirezam1387/kasoka?style=flat) ![License](https://img.shields.io/github/license/alirezam1387/kasoka?style=flat) ![React](https://img.shields.io/badge/React-16.8%2B-blue?logo=react&style=flat) ![Demo](https://img.shields.io/website?down_color=red&down_message=down&up_message=live&url=https://demo-yourcompany.vercel.app/)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+**یک وب‌سایت شرکتی تک‌صفحه‌ای (Landing Page) ساخته‌شده با React — سبک، واکنش‌گرا و قابل شخصی‌سازی**
 
-### `npm start`
+🔗 ریپازیتوری: https://github.com/alirezam1387/kasoka  
+🔗 نسخهٔ دمو: https://kasoka-2uesmhi8c-alirezas-projects-e13331ab.vercel.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ یک نگاه سریع
+این پروژه یک وب‌سایت شرکتی تک‌صفحه‌ای است که برای معرفی شرکت، خدمات، نمونه‌کارها و اطلاعات تماس طراحی شده. طراحی مینیمال، تجربهٔ کاربری روان و کدنویسی تمیز از ویژگی‌های اصلی آن است.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 برجسته‌ها (Highlights)
+- طراحی کاملاً واکنش‌گرا (Responsive)  
+- بخش‌های آماده: Hero, About, Services, Portfolio, Team, Contact  
+- ناوبری چسبان و اسکرول نرم بین بخش‌ها  
+- عملکرد روان و سبک با React  
+- مناسب برای معرفی شرکت‌ها، استارتاپ‌ها و تیم‌های کوچک  
+- قابل دیپلوی روی Vercel / Netlify / GitHub Pages  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧩 امکانات (Features)
+- هدر حرفه‌ای با ناوبری واضح  
+- بخش معرفی شرکت (About)  
+- بخش خدمات (Services) با کارت‌های خلاصه‌وار  
+- نمونه‌کارها (Portfolio) با کارت یا گالری  
+- معرفی تیم (Team) با تصویر و نقش هر عضو  
+- فرم تماس ساده با امکان اتصال به API  
+- فوتر شامل لینک‌ها و اطلاعات تماس  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠 نصب و اجرا (Quick Start)
+```bash
+git clone https://github.com/alirezam1387/kasoka.git  
+cd REPO  
 
-### `npm run eject`
+npm install  
+npm start  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+http://localhost:3000
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧭 ساختار پروژه (Project Structure)
+```bash
+src/  
+├─ Footer/    
+├─ Header/   
+├─ Images/ 
+├─ Main/    
+└─ index.js  
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## ⚡ نکات بهینه‌سازی
+- از تصاویر WebP یا تصاویر بهینه‌شده استفاده کنید  
+- متا تگ‌های مناسب برای سئو (title, description, og) قرار دهید  
+- کاهش حجم و بهینه‌سازی منابع (کاهش باندل)  
+- کدنویسی تمیز، کامپوننت‌بندی و قابل توسعه
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📦 استقرار (Deploy)
+Vercel: اتصال ریپو → Deploy  
+Netlify: اتصال ریپو → Build → Deploy  
+GitHub Pages: اجرای build → انتشار خروجی
+---
 
-### Code Splitting
+## 📫 تماس
+GitHub: https://github.com/alirezam1387  
+Email: alirezam21359640@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🧾 لایسنس
+MIT License — آزاد برای استفاده، ویرایش و توزیع
