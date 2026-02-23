@@ -6,8 +6,6 @@
 **یک وب‌سایت شرکتی تک‌صفحه‌ای (Landing Page) ساخته‌شده با React — سبک، واکنش‌گرا و قابل شخصی‌سازی**
 
 🔗 ریپازیتوری: https://github.com/alirezam1387/kasoka  
-🔗 نسخهٔ دمو: https://kasoka.vercel.app/
-
 ---
 
 ## ✨ یک نگاه سریع
